@@ -1,0 +1,76 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style dasar */
+body {
+    background: linear-gradient(135deg, #1E3A8A, #3B82F6); /* Gradient biru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container untuk form */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Judul */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1E3A8A;
+}
+
+/* Form input */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Tombol login */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1E3A8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #102B6A;
+}
+
+/* Teks link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #1E3A8A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
